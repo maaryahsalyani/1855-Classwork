@@ -7,7 +7,7 @@ answer <- readline(prompt = "Please enter a number: ")
 # The following will elaborate on the if/else statement used.
 # First, a "nested if" is used to make sure answer is numeric. If not, line 32 will be returned.
 # If answer is numeric, then it will go through the second nested "if".
-# The second "if" will make sure the number is three digits, positive, and narcissistic. If not, line 129 will be returned.
+# The second "if" will make sure the number is three digits, positive, and narcissistic. If not, line 29 will be returned.
 # To check for the number being positive & 3 digits, use answer >= 100 and answer < 1000.
 # All three conditions are separated using the "&" operator which will be TRUE only if all conditions are TRUE.
 # To extract individual digits from a number, divide by the power of 10 of the digits place then take the modulus (%%) 10.
