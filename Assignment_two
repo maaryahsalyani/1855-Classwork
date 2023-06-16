@@ -30,4 +30,5 @@ if (!is.na(as.numeric(answer))) { # checks if input is a valid numeric value and
   }
 } else {
   print("Entry is not valid. Terminating...")
+  quit(save = "yes") # "save" indicates whether the environment (workspace) should be saved. 
 }
