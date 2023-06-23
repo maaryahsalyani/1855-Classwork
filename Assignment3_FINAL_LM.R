@@ -1,4 +1,5 @@
-#assingment3 draft
+### Leen Madani | Assignment 2
+### The version of R used: 4.0.3
 
 
 # Set the working directory using setwd() command to access required files.
