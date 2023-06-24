@@ -142,3 +142,15 @@ play_hangman <- function() {
 play_hangman()
 
 
+#'REVIEW
+#'Great job setting up the display of the game with messages that introduce the game, show the total and remaining guesses, and dashes for the length of the word
+#'Very detailed comments made for each of your codes 
+#'Really like the hints that you provided for each city, very creative way to use elseif statements
+#'Next time may be helpful to store the hints in a separate data structure (like list or data frame) rather than using a series of if statements as it will enhance the simplicity when reading the code
+#'The code converts all guesses to lowercase which is preventing the user from guessing the correct word despite being the correct letter. Double check that it is senstive to capital letters
+#'The code successfully detects invalid entries (numbers and symbols)
+#'I noticed you have a code that checks if the guess has already been made-maybe double check the code as it did not display a message when I repeated the wrong letter twice
+
+
+
+
